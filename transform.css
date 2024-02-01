@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(164, 211, 195);
+}
+   
+
+/* main{
+    width: 100%;
+    height: 100%;
+    padding: 2.5rem;
+    background-color: blue;
+} */
+
+.sec-one {
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+    /* background-color: brown; */
+}
+
+.prime-div {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    box-shadow: 4px 4px rgba(240, 126, 240, 0.336);
+}
+
+.back-div  {
+   
+    width: 110px;
+    height: 110px;
+    position: relative;
+    background-color: rgba(139, 131, 131, 0.623);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.moving-div {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-color: rgba(221, 32, 158, 0.567);
+    transition: transform 0.5s 0s ease-in-out;
+    cursor: pointer;
+    /* box-shadow: darkorchid; */
+}
+
+.one:hover {
+
+    transform: rotate(45deg);
+
+}
+
+.two:hover {
+    transform: scale(1, .7);
+}
+
+.three:hover {
+ transform: scale(.7, 1);
+}
+
+.four:hover {
+    transform:  scale(1.5, 1.5);
+}
+
+.five:hover {
+    transform: scale(2, 1)
+}
+
+.six:hover {
+    transform: scale(1, 2);
+}
+
+.seven:hover {
+    transform: skew(45deg, 0);
+}
+
+.eight:hover {
+    transform: skew(0, 45deg);
+}
+
+.nine:hover {
+    transform: translate(50px, 20px);
+}
+
+.ten:hover {
+    transform: translate(50px, 0);
+}
+
+
+.sec-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.eleven:hover {
+    transform: translate(0, 50px);
+}
+
+
+.twelve {
+    transform-origin: bottom;
+}
+
+
+.twelve:hover {
+    /* transform: scale(1.5, 1.7) skew(0, 45deg); */
+    /* transform: scale(1, 1.6) skew(0, 45deg); */
+    transform: scale(1.5, 2) translate(20px, 35px) skewY(40deg);
+}
+
+.sec-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+ .thirteen:hover {
+    transform: perspective(100px) rotateX(45deg);
+ }
+
+ .fourteen:hover {
+    transform: perspective(100px) rotateY(45deg);
+ }
+
+ .sec-four {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+    
+ }
+
+ .fifteen {
+    transform-origin: top right;
+ }
+
+ .fifteen:hover {
+    transform: rotate(45deg);
+ }
+
+ .sixteen {
+    transform-origin: bottom left;
+
+ }
+
+ .sixteen:hover {
+    transform: rotate(45deg);
+ }
+
+ .seventeen {
+    transform-origin: bottom;
+ }
+
+ .seventeen:hover {
+    transform: perspective(150px) rotateX(30deg);
+ }
+
+ .eighteen {
+    transform-origin: top;
+ }
+
+ .eighteen:hover {
+    transform: perspective(350px) rotateX(55deg);
+ }
+
+ .nineteen {
+    transform-origin: left;
+ }
+
+ .nineteen:hover {
+    transform: perspective(300px) rotateY(40deg);
+ }
+
+ .sec-five {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+    
+ }
+
+ .twenty {
+    transform-origin: right;
+ }
+
+ .twenty:hover {
+    transform: perspective(300px) rotateY(50deg);
+ }
+ 
+ .twenty-one {
+    transform-origin: top right;
+ }
+
+ .twenty-one:hover {
+    transform: scale(2, 2);
+ }
+
+ .twenty-two {
+    transform-origin: bottom left;
+ }
+
+ .twenty-two:hover {
+    transform: scale(2, 2);
+ }
+
+ .twenty-three {
+    transform-origin: right;
+ }
+
+ .twenty-three:hover {
+    transform: scale(2, 1);
+ }
+
+ .twenty-four {
+    transform-origin: left;
+ }
+
+ .twenty-four:hover {
+    transform: scale(2, 1);
+ }
+
+ .sec-six {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 1.5rem;
+   
+ }
+
+ .twenty-five {
+    transform-origin: top;
+ }
+
+ .twenty-five:hover {
+    transform: scale(1, 2);
+ }
+
+ .twenty-six {
+    transform-origin: bottom;
+ }
+
+ .twenty-six:hover {
+    transform: scale(1, 2);
+ }
